@@ -1,0 +1,46 @@
+.signup {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.signup-page {
+    height: 100vx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/shin-chan-shinchan-nohara-shiro-tv-series-3840x2160-6865.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.data {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.but {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.data input {
+    border: none;
+    border-radius: 5px;
+    font: bolder;
+    height: 25px;
+}
+.data label {
+    color: black;
+    font-family: Arial;
+}
