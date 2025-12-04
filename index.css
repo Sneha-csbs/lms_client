@@ -26,10 +26,40 @@
     list-style: none;
     font-size: 20px;
 }
-.body-content {
-    background-image: url("https://i.pinimg.com/736x/eb/17/09/eb170953bfbc05c82a61bbd1c4506675.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:fixed;
+.head-items a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.head-items a:hover {
+    color:black;
+}
+.vi-bg {
+    width: 100%;
+}
+h2 {
+    text-align: center;
+}
+.end {
+    background-color: rgb(122, 196, 209);
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color:aliceblue;
+}
+button {
+    background-color: rgb(64, 126, 219);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color:aliceblue;
+    gap:10px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+    height:35px
 }
