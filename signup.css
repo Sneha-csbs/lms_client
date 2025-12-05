@@ -1,6 +1,6 @@
 .signup {
     height: 500px;
-    width: 500px;
+    width: 2000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
     align-items: left;
     padding: 10px 20px 10px 20px;
     gap: 10px;
-    background-image: url("https://4kwallpapers.com/images/wallpapers/shin-chan-shinchan-nohara-shiro-tv-series-3840x2160-6865.jpg");
+    background-image: url("https://t4.ftcdn.net/jpg/03/34/01/99/360_F_334019977_A4Oooxbf0NfWpOM21Jz2OHgF4iP9mu4n.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -40,6 +40,7 @@
     border-radius: 5px;
     font: bolder;
     height: 25px;
+    border:2px solid black;
 }
 .data label {
     color: black;
